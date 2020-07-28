@@ -11,9 +11,9 @@ Vue.use(VueRouter)
     redirect: '/login'
   },
   {
-    path: '/index',
-    name: 'Index',
-    component: () => import('../views/Index.vue'),
+    path: '/main',
+    name: 'Main',
+    component: () => import('../views/Main.vue'),
     children:[{
       path: '/about',
       name: 'About',
