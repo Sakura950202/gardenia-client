@@ -1,7 +1,5 @@
 <template>
-  <div class="wrapper">
-      这里是首页
-  </div>
+  <div>这里是首页</div>
 </template>
 
 <script>
@@ -14,9 +12,10 @@ export default {
   },
   watch:{},
   computed:{},
-  methods:{},
+  methods:{}
 }
 </script>
 
 <style lang="scss" scoped>
+
 </style>

@@ -2,7 +2,7 @@
   <div class="wrapper">
       这里是登录页面
       <div>
-        <button @click="doLogin">跳转首页</button>
+        <button @click="doLogin">跳转主页</button>
       </div>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
   computed:{},
   methods:{
     doLogin() {
-      this.$router.push({path: '/index'})
+      this.$router.push({path: '/main'})
     }
   }
 }
